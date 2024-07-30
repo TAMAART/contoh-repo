@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Dendy & Monika</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Save the Date</h1>
+            <h2>Dendy & Monika</h2>
+        </header>
+
+        <section class="hero">
+            <img src="foto1.jpg" alt="Foto Dendy & Monika">
+            <div class="hero-content">
+                <p>Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan kami pada:</p>
+                <div class="details">
+                    <p><strong>Hari:</strong> Sabtu</p>
+                    <p><strong>Tanggal:</strong> 12 Agustus 2024</p>
+                    <p><strong>Waktu:</strong> 11:00 - 15:00 WIB</p>
+                    <p><strong>Tempat:</strong> Kediaman Mempelai Perempuan</p>
+                    <p><strong>Alamat:</strong> Kapuh, Koto XI Tarusan, Kabupaten Pesisir Selatan, Sumatera Barat</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="countdown">
+            <h3>Hitungan Mundur Menuju Hari Bahagia</h3>
+            <div id="countdown-timer"></div>
+        </section>
+
+        <section class="gallery">
+            <h3>Momen-Momen Indah Kami</h3>
+            <div class="gallery-grid">
+                <img src="foto1.jpg" alt="Foto 1">
+                <img src="foto2.jpg" alt="Foto 2">
+                <img src="foto3.jpg" alt="Foto 3">
+            </div>
+        </section>
+
+        <section class="story">
+            <h3>Kisah Cinta Kami</h3>
+            <p>
+                </p>
+        </section>
+
+        <section class="wishes">
+            <h3>Ucapan dan Doa Restu</h3>
+            <div id="wishes-container"></div>
+            <form id="wish-form">
+                <textarea id="wish-text" placeholder="Tuliskan ucapan dan doa restu Anda..."></textarea>
+                <button type="submit">Kirim Ucapan</button>
+            </form>
+        </section>
+
+        <section class="rsvp">
+            <h3>Konfirmasi Kehadiran</h3>
+            <form id="rsvp-form">
+                <input type="text" id="nama" name="nama" placeholder="Nama" required>
+                <input type="number" id="jumlah_tamu" name="jumlah_tamu" placeholder="Jumlah Tamu" min="1" required>
+                <select id="konfirmasi" name="konfirmasi">
+                    <option value="hadir">Hadir</option>
+                    <option value="tidak_hadir">Tidak Hadir</option>
+                </select>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <section class="location">
+            <h3>Lokasi Acara</h3>
+            <a href="https://www.google.com/maps/@-1.2847875,100.4841105,3a,70.2y,174.15h,87.46t/data=!3m6!1e1!3m4!1sAq4l2vU1BS3g8jH0blSieA!2e0!7i16384!8i8192?coh=205409&entry=ttu" target="_blank">
+                <img src="peta1.png" alt="Lokasi Acara">
+            </a>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
